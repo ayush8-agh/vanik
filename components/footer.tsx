@@ -62,7 +62,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Coming to</h4>
             <ul className="space-y-2">
-              {["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad", "Chennai"].map((city) => (
+              {["Punjab", "Delhi NCR"].map((city) => (
                 <li key={city}>
                   <span className="text-background/70 text-sm">{city}</span>
                 </li>
