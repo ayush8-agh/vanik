@@ -83,7 +83,7 @@ export function HeroSection() {
           <div className="mt-10 pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground mb-3">Launching soon in</p>
             <div className="flex flex-wrap gap-2">
-              {["Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad"].map((city) => (
+              {["Punjab", "Delhi NCR", "Uttar Pradesh"].map((city) => (
                 <span
                   key={city}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary text-secondary-foreground rounded-full text-sm"
